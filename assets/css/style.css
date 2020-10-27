@@ -2220,7 +2220,7 @@ textarea.form-control {
 }
 
 .navbar .navbar-brand img {
-  max-height: 43px;
+  max-height: 70px;
 }
 
 .navbar .logo-light {
@@ -3617,7 +3617,7 @@ textarea.form-control {
 .slider .slide__desc {
   font-size: 18px;
   line-height: 1.5;
-  font-weight: 700;
+  font-weight: 500;
   color: #ffffff;
   max-width: 650px;
   margin-bottom: 30px;
