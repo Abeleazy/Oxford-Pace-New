@@ -6894,6 +6894,12 @@ textarea.form-control {
   transition: all 0.4s linear;
 }
 
+.service-item__img img {
+  height: 330px;
+  width: auto;
+  border-radius: 2px;
+}
+
 .service-item .service-item__title {
   position: relative;
   font-size: 24px;
@@ -6904,7 +6910,7 @@ textarea.form-control {
 
 .service-item .service-item__desc {
   font-size: 15px;
-  height: 75px;
+  height: 100px;
   line-height: 25px;
   margin-bottom: 0;
 }
@@ -6929,7 +6935,7 @@ textarea.form-control {
 
 .service-item .service-item__content {
   padding: 50px 40px 50px;
-  height: 350px;
+  height: 300px;
 }
 
 .service-item:hover {
