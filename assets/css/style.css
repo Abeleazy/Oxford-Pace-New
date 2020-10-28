@@ -3949,6 +3949,7 @@ textarea.form-control {
 .feature-item .feature-item__desc {
   position: relative;
   font-size: 15px;
+  height: 110px;
   line-height: 25px;
   padding-bottom: 30px;
   margin-bottom: 30px;
@@ -6897,6 +6898,7 @@ textarea.form-control {
 
 .service-item .service-item__desc {
   font-size: 15px;
+  height: 75px;
   line-height: 25px;
   margin-bottom: 0;
 }
@@ -6921,6 +6923,7 @@ textarea.form-control {
 
 .service-item .service-item__content {
   padding: 50px 40px 50px;
+  height: 350px;
 }
 
 .service-item:hover {
