@@ -1,10 +1,11 @@
 function initMap() {
-    // The location of Uluru
-    var uluru = { lat: 51.480557, lng: -0.182683 };
-    // The map, centered at Uluru
+    // The location of oxfordPaceIntl
+    // var uluru = { lat: 51.480557, lng: -0.182683 };
+    var oxfordPaceIntl = { lat: 6.608810, lng: 3.295920 };
+    // The map, centered at oxfordPaceIntl
     var map = new google.maps.Map(
         document.getElementById('map'), {
-        zoom: 12, center: uluru,
+        zoom: 16, center: oxfordPaceIntl,
         styles: [
             {
                 "elementType": "geometry",
@@ -166,6 +167,6 @@ function initMap() {
             }
         ]
     });
-    // The marker, positioned at Uluru
-    var marker = new google.maps.Marker({ position: uluru, map: map });
+    // The marker, positioned at oxfordPaceIntl
+    var marker = new google.maps.Marker({ position: oxfordPaceIntl, map: map });
 }
