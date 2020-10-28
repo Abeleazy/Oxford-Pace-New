@@ -6654,6 +6654,12 @@ textarea.form-control {
   transition: all 0.3s linear;
 }
 
+.banner-layout3 .fancybox-item.box1, 
+.banner-layout3 .fancybox-item.box2, 
+.banner-layout3 .fancybox-item.box3 {
+  background-color: rgb(32, 46, 63);
+}
+
 .banner-layout3 .fancybox-item:hover {
   border-color: #fdb900;
   background-color: #fdb900;
