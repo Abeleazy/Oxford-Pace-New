@@ -2335,6 +2335,13 @@ textarea.form-control {
   transform: translateY(-50%);
 }
 
+.navbar .dropdown-toggle.subsidiary-dropdown {
+  padding-right: 0;
+}
+.navbar .dropdown-toggle.subsidiary-dropdown:after {
+  display: none;
+}
+
 .navbar .dropdown-menu {
   border-radius: 0;
   border: none;
@@ -3935,9 +3942,14 @@ textarea.form-control {
 }
 
 .feature-item .feature-item__icon {
-  font-size: 55px;
-  line-height: 1;
+  font-size: 50px;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
   color: #fdb900;
+  border: 1px solid;
+  transition: 0.5s ease;
   margin-bottom: 30px;
 }
 
@@ -3986,6 +3998,8 @@ textarea.form-control {
 }
 
 .feature-item:hover .feature-item__icon {
+  background: radial-gradient(rgb(20, 55, 114), rgb(38, 56, 77));
+  border: none;
   -webkit-animation: slideTopDown 1s infinite alternate;
   animation: slideTopDown 1s infinite alternate;
 }
@@ -6228,7 +6242,7 @@ textarea.form-control {
   }
   .widget-categories ul li a {
     font-size: 13px;
-    padding: 10px;
+    padding: 10px 10px 10px 50px;
   }
   .widget-download .btn {
     height: 60px;
@@ -6654,6 +6668,12 @@ textarea.form-control {
   transition: all 0.3s linear;
 }
 
+.banner-layout3 .fancybox-item.box1, 
+.banner-layout3 .fancybox-item.box2, 
+.banner-layout3 .fancybox-item.box3 {
+  background-color: rgb(32, 46, 63);
+}
+
 .banner-layout3 .fancybox-item:hover {
   border-color: #fdb900;
   background-color: #fdb900;
@@ -6888,6 +6908,12 @@ textarea.form-control {
   transition: all 0.4s linear;
 }
 
+.service-item__img img {
+  height: 330px;
+  width: auto;
+  border-radius: 2px;
+}
+
 .service-item .service-item__title {
   position: relative;
   font-size: 24px;
@@ -6898,7 +6924,7 @@ textarea.form-control {
 
 .service-item .service-item__desc {
   font-size: 15px;
-  height: 75px;
+  height: 100px;
   line-height: 25px;
   margin-bottom: 0;
 }
@@ -6923,7 +6949,7 @@ textarea.form-control {
 
 .service-item .service-item__content {
   padding: 50px 40px 50px;
-  height: 350px;
+  height: 300px;
 }
 
 .service-item:hover {
