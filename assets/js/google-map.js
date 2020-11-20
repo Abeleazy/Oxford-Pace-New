@@ -1,6 +1,5 @@
 function initMap() {
     // The location of oxfordPaceIntl
-    // var uluru = { lat: 51.480557, lng: -0.182683 };
     var oxfordPaceIntl = { lat: 6.608810, lng: 3.295920 };
     // The map, centered at oxfordPaceIntl
     var map = new google.maps.Map(
