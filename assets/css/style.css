@@ -1384,8 +1384,8 @@ h6 {
 }
 
 .btn__white:active, .btn__white:focus {
-  background-color: #ffffff;
-  color: #0b2653;
+  background-color: #222222;
+  color: #ffffff;
 }
 
 .btn__white.btn__bordered {
@@ -4599,6 +4599,9 @@ textarea.form-control {
   width: 100%;
   border-radius: 4px;
 }
+.member .member__img img {
+  width: 500px;
+}
 
 .member .member__info {
   padding-top: 24px;
@@ -7094,7 +7097,7 @@ textarea.form-control {
   height: 480px;
 }
 
-.contact-info .contact-info-box .contact__info-img {
+/* .contact-info .contact-info-box .contact__info-img {
   width: 400px;
   height: auto;
 }
@@ -7108,7 +7111,7 @@ textarea.form-control {
   max-width: 400px;
   width: 100%;
   height: auto;
-}
+} */
 
 .banner-layout1 .bg-img:before,
 .contact-layout1 .contact-panel__banner .bg-img:before {
@@ -7118,12 +7121,11 @@ textarea.form-control {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(180deg, rgba(4, 17, 39, 0.6) 0%, rgba(4, 17, 39, 0.9) 100%);
+  background: linear-gradient(180deg, rgba(4, 17, 39, 0.4) 0%, rgba(4, 17, 39, 0.9) 100%);
   opacity: 0.6;
 }
-
 .banner-layout1 .bg-img:before {
-  opacity: 0.65;
+  opacity: 0.6;
 }
 .contact-layout1 .contact-panel__banner .bg-img:before {
   opacity: 0.95;
