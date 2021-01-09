@@ -2,8 +2,8 @@
     Project Name: Eteon
     Version: 1.0
     Author: 7oorof
-    Devloped by: Ahmed Abdallah (a.abdallah999@gmail.com)
-    Relase Date: Septemper 2020
+    Developed by: Ahmed Abdallah (a.abdallah999@gmail.com)
+    Release Date: September 2020
 ---------------------------*/
 /*---------------------------
       Table of Contents
@@ -5160,7 +5160,7 @@ textarea.form-control {
   background-color: #fdb900;
 }
 
-/* Blog Sigle */
+/* Blog Single */
 .blog-single .post-item .post-item__meta {
   margin-bottom: 8px;
 }
@@ -6912,7 +6912,7 @@ textarea.form-control {
 }
 
 .service-item__img img {
-  height: 330px;
+  max-height: 300px;
   width: auto;
   border-radius: 2px;
 }
@@ -6927,7 +6927,7 @@ textarea.form-control {
 
 .service-item .service-item__desc {
   font-size: 15px;
-  height: 100px;
+  /* height: 100px; */
   line-height: 25px;
   margin-bottom: 0;
 }
@@ -6952,7 +6952,7 @@ textarea.form-control {
 
 .service-item .service-item__content {
   padding: 50px 40px 50px;
-  height: 300px;
+  /* height: 300px; */
 }
 
 .service-item:hover {
@@ -7122,9 +7122,6 @@ textarea.form-control {
   left: 0;
   right: 0;
   background: linear-gradient(180deg, rgba(4, 17, 39, 0.4) 0%, rgba(4, 17, 39, 0.9) 100%);
-  opacity: 0.6;
-}
-.banner-layout1 .bg-img:before {
   opacity: 0.6;
 }
 .contact-layout1 .contact-panel__banner .bg-img:before {
