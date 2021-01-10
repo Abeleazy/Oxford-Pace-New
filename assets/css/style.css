@@ -4195,7 +4195,7 @@ textarea.form-control {
 ------------------------*/
 .portfolio-item {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .portfolio-item .portfolio-item__img {
@@ -7128,3 +7128,8 @@ textarea.form-control {
 .contact-layout1 .contact-panel__banner .bg-img:before {
   opacity: 0.95;
 }
+
+/* .custom .portfolio-item .portfolio-item__img img {
+  height: 350px;
+  width: 450px;
+} */
