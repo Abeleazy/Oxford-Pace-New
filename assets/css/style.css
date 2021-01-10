@@ -7113,6 +7113,7 @@ textarea.form-control {
   height: auto;
 } */
 
+.page-title-layout3:before,
 .banner-layout1 .bg-img:before,
 .contact-layout1 .contact-panel__banner .bg-img:before {
   content: "";
