@@ -7128,8 +7128,24 @@ textarea.form-control {
 .contact-layout1 .contact-panel__banner .bg-img:before {
   opacity: 0.95;
 }
+.meet-criteria div p {
+  font-weight: 600;
+}
+.meet-criteria p a, .yellow-anchor-tag {
+  color: #fdb900;
+}
+.meet-criteria p a:hover, .yellow-anchor-tag:hover {
+  color: inherit;
+  text-decoration: underline;
+}
 
 /* .custom .portfolio-item .portfolio-item__img img {
   height: 350px;
   width: 450px;
 } */
+
+@media (max-width: 768px) {
+  .text-content .border-left {
+    border-left-width: 0px;
+  }
+}
