@@ -7144,6 +7144,11 @@ textarea.form-control {
   width: 450px;
 } */
 
+.Kiddies-and-Teens .portfolio-item__img img, .filter-kiddies-and-teens .portfolio-item__img img {
+  max-height: 350px !important;
+  max-width: 400px !important;
+}
+
 @media (max-width: 768px) {
   .text-content .border-left {
     border-left-width: 0px;
