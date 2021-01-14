@@ -7149,6 +7149,18 @@ textarea.form-control {
   max-width: 400px !important;
 }
 
+.filter-grand-opening .portfolio-item__img,
+.filter-item4 .portfolio-item__img,
+.filter-praise-concert .portfolio-item__img {
+  max-height: 270px;
+}
+
+.clients .client img {
+  max-height: 117px;
+  max-width: 169px;
+  border-radius: 5px;
+}
+
 @media (max-width: 768px) {
   .text-content .border-left {
     border-left-width: 0px;
